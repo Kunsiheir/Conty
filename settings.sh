@@ -8,7 +8,7 @@ PACKAGES=(
 	# audio
 	alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse
 	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-pulse pipewire-jack lib32-pipewire-jack
-	# core
+	# cores
 	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr gamescope
 	# video
 	mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
@@ -40,7 +40,7 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	python python-pip lua love llvm clang raylib luajit nodejgeany-plugins s npm electron
+	python python-pip lua love llvm clang raylib luajit nodejs npm electron
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch

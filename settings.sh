@@ -40,6 +40,8 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
+	python python-pip lua love llvm clang raylib luajit nodejgeany-plugins s npm electron
+	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
@@ -49,10 +51,12 @@ PACKAGES=(
 	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
 	libretro-yabause pcsx2-avx-git
 	# extra
-	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
+	nano ttf-dejavu ttf-liberation firefox mpv geany geany-plugins pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
+ 	zip 7zip helix jre11-openjdk jre21-openjdk jre-openjdk
+ 	blender
 )
 
 # If you want to install AUR packages, specify them in this variable
@@ -158,3 +162,4 @@ BOOTSTRAP_SHA256SUM_FILE_URL='https://archlinux.org/iso/latest/sha256sums.txt'
 # Set to any value to use an existing image if it exists
 # Otherwise the script will always create a new image
 USE_EXISTING_IMAGE=
+

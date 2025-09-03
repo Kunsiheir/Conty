@@ -17,7 +17,7 @@ PACKAGES=(
 	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
 	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
 	# wine
-	wine-staging winetricks-git wine-nine wineasio wine-mono wine-proton
+	wine-staging winetricks-git wine-nine wineasio wine-mono
 	freetype2 lib32-freetype2 libxft lib32-libxft
 	flex lib32-flex fluidsynth lib32-fluidsynth
 	libxrandr lib32-libxrandr xorg-xrandr libldap lib32-libldap
@@ -40,12 +40,12 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	python python-pip lua love llvm clang raylib luajit nodejs npm electron luau
+	python python-pip python-pipx lua love llvm clang raylib luajit nodejs npm electron luau python-setuptools
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
-	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
+	retroarch retroarch-assets-ozone libretro-beetle-psx-hw umu-launcher
 	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
 	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
@@ -57,12 +57,16 @@ PACKAGES=(
  	ffmpegthumbnailer tmux
  	zip 7zip helix jre11-openjdk jre21-openjdk jre-openjdk
  	blender
+  	# virtual
+  	# libvirt python-pt qemu-base qemu-full qemu-img virt-manager virt-viewer dnsmasq
+   	# vde2 bridge-utils openbsd-netcat iptables-nft libguestfs
 )
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
 	faugus-launcher-git faugus-launcher vkd3d-proton-bin vkd3d-proton-git lib32-vkd3d-proton-git
- 	vkd3d-proton-mingw
+ 	vkd3d-proton-mingw lsfg-vk-git gallery-dl proton-ge-custom-bin wine-stable-mono latencyflex-proton-ge-custom
+  	
  )
 
 # ALHP is a repository containing packages from the official Arch Linux

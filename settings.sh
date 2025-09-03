@@ -40,8 +40,9 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	python python-pip python-pipx lua love llvm clang raylib luajit nodejs npm electron luau python-setuptools
+	python python-pip python-pipx lua love raylib luajit nodejs npm electron luau python-setuptools
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
+ 	# llvm clang
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio

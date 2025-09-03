@@ -40,12 +40,12 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	python python-pip lua love llvm clang raylib luajit nodejs npm electron
+	python python-pip python-pipx lua love llvm clang raylib luajit nodejs npm electron luau python-setuptools
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
-	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
+	retroarch retroarch-assets-ozone libretro-beetle-psx-hw umu-launcher
 	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
 	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
@@ -57,10 +57,16 @@ PACKAGES=(
  	ffmpegthumbnailer tmux
  	zip 7zip helix jre11-openjdk jre21-openjdk jre-openjdk
  	blender
+  	# virtual
+  	# libvirt python-pt qemu-base qemu-full qemu-img virt-manager virt-viewer dnsmasq
+   	# vde2 bridge-utils openbsd-netcat iptables-nft libguestfs
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher-git)
+AUR_PACKAGES=(
+	faugus-launcher faugus-launcher-git lsfg-vk-bin wine-ge-custom-bin-opt
+ 	gallery-dl proton-ge-custom-bin vkd3d-proton-bin
+ )
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for

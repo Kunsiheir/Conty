@@ -60,7 +60,10 @@ PACKAGES=(
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher)
+AUR_PACKAGES=(
+	faugus-launcher-git faugus-launcher vkd3d-proton-bin vkd3d-proton-git lib32-vkd3d-proton-git
+ 	vkd3d-proton-mingw
+ )
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for

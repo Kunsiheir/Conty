@@ -17,7 +17,7 @@ PACKAGES=(
 	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
 	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
 	# wine
-	wine-staging winetricks-git wine-nine wineasio wine-mono
+	wine-staging winetricks-git wine-nine wineasio wine-mono wine-proton
 	freetype2 lib32-freetype2 libxft lib32-libxft
 	flex lib32-flex fluidsynth lib32-fluidsynth
 	libxrandr lib32-libxrandr xorg-xrandr libldap lib32-libldap
@@ -40,7 +40,7 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	python python-pip lua love llvm clang raylib luajit nodejs npm electron
+	python python-pip lua love llvm clang raylib luajit nodejs npm electron luau
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
@@ -60,7 +60,7 @@ PACKAGES=(
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher-git)
+AUR_PACKAGES=(faugus-launcher)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for

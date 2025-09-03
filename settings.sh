@@ -64,7 +64,7 @@ PACKAGES=(
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	faugus-launcher lsfg-vk-git wine-ge-custom-bin-opt
+	faugus-launcher-git lsfg-vk-git wine-ge-custom-bin-opt
  	gallery-dl-git proton-ge-custom-bin vkd3d-proton-bin
  )
 

@@ -64,8 +64,8 @@ PACKAGES=(
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	faugus-launcher faugus-launcher-git lsfg-vk-bin wine-ge-custom-bin-opt
- 	gallery-dl proton-ge-custom-bin vkd3d-proton-bin
+	faugus-launcher lsfg-vk-bin
+ 	gallery-dl
  )
 
 # ALHP is a repository containing packages from the official Arch Linux

@@ -64,8 +64,8 @@ PACKAGES=(
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	faugus-launcher vkd3d-proton-git lib32-vkd3d-proton-git vkd3d-proton-mingw
- 	lsfg-vk-git gallery-dl proton-ge-custom-bin wine-stable-mono latencyflex-proton-ge-custom
+	faugus-launcher vkd3d-proton-bin vkd3d-proton-mingw-git lsfg-vk-git
+ 	gallery-dl proton-ge-custom-bin wine-stable-mono latencyflex-proton-ge-custom
   	
  )
 

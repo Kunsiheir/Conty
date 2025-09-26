@@ -15,13 +15,10 @@ PACKAGES=(
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
  	llvm clang fnlfmt clang19 llvm19 lld19 lld 
 	lua-http lua-luassert lua-luautf8 lua-socket lua-filesystem libluv lua-luv lua51-luv lua52-luv lua53-luv
-	lua53-sdl2 sdl2-compat sdl2_gfx sdl2_image sdl2_mixer sdl2_mixer sdl2_net sdl2_ttf
-	lib32-sdl2-compat lib32-sdl2_gfx lib32-sdl2_image lib32-sdl2_mixer
-	lib32-sdl2_mixer lib32-sdl2_net lib32-sdl2_ttf
 	zig zls
 	docker bashbrew 
 	aarch64-linux-gnu-binutils aarch64-linux-gnu-gcc aarch64-linux-gnu-gdb aarch64-linux-gnu-glibc 
-	qemu-emulators-full qemu-full qemu-common qemu-desktop qemu libvirt python-pt
+	qemu-emulators-full qemu-full qemu-common qemu-desktop qemu-user libvirt python-pt
 	qemu-img virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat iptables-nft libguestfs
 	# extra
 	nano ttf-dejavu ttf-liberation pcmanfm glfw openal
@@ -30,6 +27,12 @@ PACKAGES=(
  	tmux
  	helix jdk-openjdk jdk17-openjdk jdk21-openjdk
 	ninja
+	# sdl
+	lua53-sdl2 sdl2-compat sdl12-compat sdl2_gfx sdl2_image sdl2_mixer sdl2_mixer sdl2_net sdl2_ttf sdl3
+	gambas3-gb-sdl2 gambas3-gb-sdl2-audio lib32-sdl2_ttf lib32-sdl2_compat lib32-sdl12-compat lib32-sdl2_image
+	lib32-sdl2_mixer lib32-sdl3 lib32-sdl_image lib32-sdl_mixer lib32-sdl_net lib32-sdl_ttf lib32-smpeg
+	sdl_gfx sdl_mixer sdl_net sdl_sound sdl_ttf smpeg
+	vice-sdl2 crawl-tiles dgen-sdl gnuradio guichan frotz-sdl mame mame-tools mgba-sdl pdcurses qmc2 vice-sdl2 
 )
 
 # If you want to install AUR packages, specify them in this variable

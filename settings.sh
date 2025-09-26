@@ -29,7 +29,7 @@ PACKAGES=(
 	ninja
 	# sdl
 	lua53-sdl2 sdl2-compat sdl12-compat sdl2_gfx sdl2_image sdl2_mixer sdl2_mixer sdl2_net sdl2_ttf sdl3
-	gambas3-gb-sdl2 gambas3-gb-sdl2-audio lib32-sdl2_ttf lib32-sdl2_compat lib32-sdl12-compat lib32-sdl2_image
+	gambas3-gb-sdl2 gambas3-gb-sdl2-audio lib32-sdl2_ttf lib32-sdl2-compat lib32-sdl12-compat lib32-sdl2_image
 	lib32-sdl2_mixer lib32-sdl3 lib32-sdl_image lib32-sdl_mixer lib32-sdl_net lib32-sdl_ttf lib32-smpeg
 	sdl_gfx sdl_mixer sdl_net sdl_sound sdl_ttf smpeg
 	vice-sdl2 crawl-tiles dgen-sdl gnuradio guichan frotz-sdl mame mame-tools mgba-sdl pdcurses qmc2 vice-sdl2 

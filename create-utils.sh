@@ -139,8 +139,8 @@ if [ "${build_dwarfs}" = "true" ]; then
 	make DESTDIR="${script_dir}"/build-utils/bin install
 
 	cd "${script_dir}"/build-utils || exit 1
-	mv bin/usr/local/sbin/dwarfs2 utils/dwarfs
-	mv bin/usr/local/sbin/dwarfs utils/dwarfs3
+	mv bin/usr/local/bin/dwarfs2 utils/dwarfs
+	mv bin/usr/local/bin/dwarfs utils/dwarfs3
 	mv bin/usr/local/bin/mkdwarfs utils
 	mv bin/usr/local/bin/dwarfsextract utils
 fi
@@ -155,6 +155,10 @@ done
 
 if [ ! -f utils/ld-linux-x86-64.so.2 ]; then
     cp -L /lib64/ld-linux-x86-64.so.2 utils
+fi
+
+if [ ! -f utils/libgcc_s.so.1 ]; then
+    cp -L /usr/lib/libgcc_s.so.1 utils
 fi
 
 find utils -type f -exec strip --strip-unneeded {} \; 2>/dev/null

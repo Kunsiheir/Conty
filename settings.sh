@@ -19,7 +19,7 @@ PACKAGES=(
 	docker bashbrew 
 	aarch64-linux-gnu-binutils aarch64-linux-gnu-gcc aarch64-linux-gnu-gdb aarch64-linux-gnu-glibc 
 	qemu-emulators-full qemu-full qemu-common qemu-desktop qemu-user libvirt python-pt
-	qemu-img virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat iptables-nft libguestfs
+	qemu-img virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat iptables libguestfs
 	# extra
 	nano ttf-dejavu ttf-liberation pcmanfm glfw openal
 	htop speedcrunch gpicview file-roller openbox lxterminal

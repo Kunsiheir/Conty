@@ -8,7 +8,7 @@ PACKAGES=(
 	# audio
 	alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse
 	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-pulse pipewire-jack lib32-pipewire-jack
-	# core
+	# cores
 	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr gamescope
 	# video
 	mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
@@ -17,7 +17,7 @@ PACKAGES=(
 	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
 	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
 	# wine
-	wine-staging winetricks-git wine-nine wineasio
+	wine-staging winetricks-git wine-nine wineasio wine-mono
 	freetype2 lib32-freetype2 libxft lib32-libxft
 	flex lib32-flex fluidsynth lib32-fluidsynth
 	libxrandr lib32-libxrandr xorg-xrandr libldap lib32-libldap
@@ -40,23 +40,30 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
+	python python-pip python-pipx lua love raylib luajit nodejs npm electron luau python-setuptools
+	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
-	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
+	retroarch retroarch-assets-ozone libretro-beetle-psx-hw umu-launcher
 	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
 	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
 	libretro-yabause pcsx2-git
 	# extra
-	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
+	nano ttf-dejavu ttf-liberation firefox mpv geany geany-plugins pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
+ 	zip 7zip helix jre11-openjdk jre21-openjdk jre-openjdk
+ 	blender
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher-git)
+AUR_PACKAGES=(
+	faugus-launcher lsfg-vk-bin
+ 	gallery-dl
+ )
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
@@ -133,7 +140,7 @@ SQUASHFS_COMPRESSOR_ARGUMENTS=(-b 1M -comp "${SQUASHFS_COMPRESSOR}" -Xcompressio
 #SQUASHFS_COMPRESSOR_ARGUMENTS=(-b 256K -comp "${SQUASHFS_COMPRESSOR}" -Xhc)
 
 # Set to any value to Use DwarFS instead of SquashFS
-USE_DWARFS=
+USE_DWARFS=1
 DWARFS_COMPRESSOR_ARGUMENTS=(
 	-l7 -C zstd:level=19 --metadata-compression null
 	-S 22 -B 1 --order nilsimsa

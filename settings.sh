@@ -42,7 +42,6 @@ PACKAGES=(
 	base-devel git meson mingw-w64-gcc cmake
 	python python-pip python-pipx lua love raylib luajit nodejs npm electron luau python-setuptools
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
- 	# llvm clang
 	# gaming
 	lutris python-protobuf steam steam-native-runtime steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
@@ -58,9 +57,6 @@ PACKAGES=(
  	ffmpegthumbnailer tmux
  	zip 7zip helix jre11-openjdk jre21-openjdk jre-openjdk
  	blender
-  	# virtual
-  	# libvirt python-pt qemu-base qemu-full qemu-img virt-manager virt-viewer dnsmasq
-   	# vde2 bridge-utils openbsd-netcat iptables-nft libguestfs
 )
 
 # If you want to install AUR packages, specify them in this variable
@@ -168,5 +164,5 @@ BOOTSTRAP_SHA256SUM_FILE_URL='https://archlinux.org/iso/latest/sha256sums.txt'
 
 # Set to any value to use an existing image if it exists
 # Otherwise the script will always create a new image
-USE_EXISTING_IMAGE=1
+USE_EXISTING_IMAGE=
 

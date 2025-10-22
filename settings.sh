@@ -15,16 +15,15 @@ PACKAGES=(
 	lua-language-server lua51 lua52 lua53 fennel typescript typescript-language-server luarocks
  	llvm clang fnlfmt clang19 llvm19 lld19 lld 
 	lua-http lua-luassert lua-luautf8 lua-socket lua-filesystem libluv lua-luv lua51-luv lua52-luv lua53-luv
-	zig zls
+	zig zls php xchm
 	docker bashbrew 
 	aarch64-linux-gnu-binutils aarch64-linux-gnu-gcc aarch64-linux-gnu-gdb aarch64-linux-gnu-glibc 
-	qemu-emulators-full qemu-full qemu-common qemu-desktop qemu-user libvirt python-pt
-	qemu-img virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat iptables libguestfs
+	python-pt
 	# extra
-	nano ttf-dejavu ttf-liberation pcmanfm glfw openal
+	nano ttf-dejavu ttf-liberation pcmanfm glfw openal font-manager weston
 	htop speedcrunch gpicview file-roller openbox lxterminal
 	minizip genymotion maven yarn
- 	tmux
+ 	tmux ytfzf mutt fzf wireguard-tools obfuscate distrobox
  	helix jdk-openjdk jdk17-openjdk jdk21-openjdk
 	ninja
 	# sdl
@@ -33,10 +32,19 @@ PACKAGES=(
 	lib32-sdl2_mixer lib32-sdl3 lib32-sdl_image lib32-sdl_mixer lib32-sdl_net lib32-sdl_ttf lib32-smpeg
 	sdl_gfx sdl_mixer sdl_net sdl_sound sdl_ttf smpeg
 	vice-sdl2 crawl-tiles dgen-sdl gnuradio guichan frotz-sdl mame mame-tools mgba-sdl pdcurses qmc2 vice-sdl2 
+	# KiCad
+	kicad kicad-library kicad-library-3d python-kikit python-pcbnewtransition
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=()
+AUR_PACKAGES=(
+	glslviewer
+	waydroid
+	waydroid-git
+	waydroid-image-gapps
+	lane-wd
+	android-sdk-platform-tools
+)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for

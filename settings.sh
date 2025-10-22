@@ -61,7 +61,7 @@ PACKAGES=(
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	faugus-launcher lsfg-vk-bin
+	faugus-launcher
  	gallery-dl
  )
 

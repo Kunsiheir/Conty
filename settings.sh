@@ -18,7 +18,7 @@ PACKAGES=(
 	zig zls php xchm
 	docker bashbrew 
 	aarch64-linux-gnu-binutils aarch64-linux-gnu-gcc aarch64-linux-gnu-gdb aarch64-linux-gnu-glibc 
-	python-pt
+	python-pt lib32-libglvnd libglvnd
 	# extra
 	nano ttf-dejavu ttf-liberation pcmanfm glfw openal font-manager weston
 	htop speedcrunch gpicview file-roller openbox lxterminal

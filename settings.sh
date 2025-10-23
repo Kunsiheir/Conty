@@ -38,11 +38,11 @@ PACKAGES=(
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	waydroid
-	waydroid-git
-	waydroid-image-gapps
-	lane-wd
-	android-sdk-platform-tools
+	# waydroid
+	# waydroid-git
+	# waydroid-image-gapps
+	# lane-wd
+	# android-sdk-platform-tools
 
 )
 

@@ -91,7 +91,7 @@ install_aur_packages () {
 		echo ${bad_aur_pkglist} > /home/aur/bad_aur_pkglist.txt
 	fi
 
-	for i in {1..10}; do
+	for i in {1..10}; do # Need fix
 		if yes | yay --needed --removemake --builddir /home/aur -a -S ${aur_pkgs}; then
 			break
 		fi

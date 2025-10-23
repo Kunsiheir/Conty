@@ -38,7 +38,12 @@ PACKAGES=(
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	glslviewer
+	waydroid
+	waydroid-git
+	waydroid-image-gapps
+	lane-wd
+	android-sdk-platform-tools
+
 )
 
 # ALHP is a repository containing packages from the official Arch Linux

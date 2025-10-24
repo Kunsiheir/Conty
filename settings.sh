@@ -33,7 +33,7 @@ PACKAGES=(
 	sdl_gfx sdl_mixer sdl_net sdl_sound sdl_ttf smpeg
 	vice-sdl2 crawl-tiles dgen-sdl gnuradio guichan frotz-sdl mame mame-tools mgba-sdl pdcurses qmc2 vice-sdl2 
 	# KiCad
-	kicad kicad-library kicad-library-3d python-kikit python-pcbnewtransition
+	# kicad kicad-library kicad-library-3d python-kikit python-pcbnewtransition
 )
 
 # If you want to install AUR packages, specify them in this variable

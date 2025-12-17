@@ -40,6 +40,9 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
+	# development new
+	python-pip python-pipx lua love raylib luajit luau
+	lua-language-server lua51 lua52 lua53 fennel luarocks xchm
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
@@ -53,10 +56,18 @@ PACKAGES=(
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
+	# extra new
+	helix mutt fzf wireguard-tools obfuscate distrobox
+	zip 7zip jre21-openjdk jre-openjdk blender
+	proton-vpn-gtk-app proton-vpn-cli
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher-git)
+AUR_PACKAGES=(
+	faugus-launcher-git
+	gallery-dl
+	glslviewer
+)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for

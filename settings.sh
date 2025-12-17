@@ -54,7 +54,7 @@ PACKAGES=(
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
 	# extra new
-	helix mutt fzf jre-openjdk
+	helix mutt fzf jre-openjdk blender
 	proton-vpn-gtk-app proton-vpn-cli
 )
 

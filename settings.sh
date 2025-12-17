@@ -12,33 +12,36 @@ PACKAGES=(
 	# development
 	base-devel git meson mingw-w64-gcc cmake
 	# development new
-	raylib
-	python-pip python-pipx python-setuptools python
+	raylib clang ninja llvm lld
+	python-pip python-pipx python-setuptools python python-pt lib32-libglvnd libglvnd
 	lua-language-server lua lua51 lua52 lua53 luajit luau fennel luarocks love
+	lua-http lua-luassert lua-luautf8 lua-socket lua-filesystem libluv lua-luv
+	lua51-luv lua52-luv lua53-luv
 	ruby libglvnd glu xchm
+	podman podman-desktop podman-compose bashbrew
 	typescript typescript-language-server nodejs npm electron 
-	# gaming
-	lutris python-protobuf steam steamtinkerlaunch
-	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
-	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
-	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
-	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
-	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
-	libretro-yabause pcsx2-git lsfg-vk-git
 	# extra
-	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
-	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
+	nano ttf-dejavu ttf-liberation geany pcmanfm
+	htop file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
 	# extra new
 	helix mutt fzf wireguard-tools obfuscate distrobox
-	zip 7zip jre21-openjdk jre-openjdk blender
+	zip 7zip jdk-openjdk jdk17-openjdk
 	proton-vpn-gtk-app proton-vpn-cli
+	minizip maven yarn glfw openal weston
+	virtme-ng virtiofsd qemu-full qemu-common qemu-emulators-full
+	# sdl
+	lua53-sdl2 sdl2-compat sdl12-compat sdl2_gfx sdl2_image sdl2_mixer sdl2_mixer sdl2_net sdl2_ttf sdl3
+	lib32-sdl2_ttf lib32-sdl2-compat lib32-sdl12-compat lib32-sdl2_image
+	lib32-sdl2_mixer lib32-sdl3 lib32-sdl_image lib32-sdl_mixer lib32-sdl_net lib32-sdl_ttf lib32-smpeg
+	sdl_gfx sdl_mixer sdl_net sdl_sound sdl_ttf smpeg
+	vice-sdl2 crawl-tiles dgen-sdl gnuradio guichan frotz-sdl mgba-sdl pdcurses vice-sdl2
 )
 
 # If you want to install AUR packages, specify them in this variable
 AUR_PACKAGES=(
-	faugus-launcher-git
+	gvproxy-bin
 	gallery-dl
 	glslviewer
 )

@@ -5,44 +5,18 @@
 # Apart from packages from the official Arch repos, you can also specify
 # packages from the Chaotic-AUR repo
 PACKAGES=(
-	# audio
-	alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse
-	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-pulse pipewire-jack lib32-pipewire-jack
 	# core
-	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr gamescope
+	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr
 	# video
-	mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
-	vulkan-intel lib32-vulkan-intel
-	vulkan-icd-loader lib32-vulkan-icd-loader vulkan-mesa-layers
-	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
-	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
-	# wine
-	wine-staging winetricks-git wine-nine wineasio
-	freetype2 lib32-freetype2 libxft lib32-libxft
-	flex lib32-flex fluidsynth lib32-fluidsynth
-	libxrandr lib32-libxrandr xorg-xrandr libldap lib32-libldap
-	mpg123 lib32-mpg123 libxcomposite lib32-libxcomposite
-	libxi lib32-libxi libxinerama lib32-libxinerama libxss lib32-libxss
-	libxslt lib32-libxslt openal lib32-openal
-	krb5 lib32-krb5 libpulse lib32-libpulse alsa-plugins
-	lib32-alsa-plugins alsa-lib lib32-alsa-lib gnutls lib32-gnutls
-	giflib lib32-giflib gst-libav gst-plugin-pipewire gst-plugins-ugly
-	gst-plugins-bad gst-plugins-bad-libs gst-plugin-va lsp-plugins-gst
-	gst-plugins-base-libs lib32-gst-plugins-base-libs gst-plugins-base lib32-gst-plugins-base
-	gst-plugins-good lib32-gst-plugins-good gstreamer lib32-gstreamer
-	libpng lib32-libpng v4l-utils lib32-v4l-utils
-	libgpg-error lib32-libgpg-error libjpeg-turbo lib32-libjpeg-turbo
-	libgcrypt lib32-libgcrypt ncurses lib32-ncurses ocl-icd lib32-ocl-icd
-	libxcrypt-compat lib32-libxcrypt-compat libva lib32-libva sqlite lib32-sqlite
-	gtk3 lib32-gtk3 vulkan-icd-loader lib32-vulkan-icd-loader
-	sdl2-compat lib32-sdl2-compat vkd3d lib32-vkd3d libgphoto2
-	openssl-1.1 lib32-openssl-1.1 libnm lib32-libnm
-	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
+	mesa lib32-mesa
 	# development
 	base-devel git meson mingw-w64-gcc cmake
 	# development new
-	python-pip python-pipx lua love raylib luajit luau
-	lua-language-server lua51 lua52 lua53 fennel luarocks xchm
+	raylib
+	python-pip python-pipx python-setuptools python
+	lua-language-server lua lua51 lua52 lua53 luajit luau fennel luarocks love
+	ruby libglvnd glu xchm
+	typescript typescript-language-server nodejs npm electron 
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio

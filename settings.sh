@@ -26,11 +26,7 @@ PACKAGES=(
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(
-	faugus-launcher-git
-	gallery-dl
-	glslviewer
-)
+AUR_PACKAGES=()
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for

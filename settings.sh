@@ -40,9 +40,6 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	# development new
-	python-pip python-pipx lua love raylib luajit luau
-	lua-language-server lua51 lua52 lua53 fennel luarocks xchm
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	minigalaxy gamehub legendary prismlauncher bottles playonlinux obs-studio
@@ -57,8 +54,7 @@ PACKAGES=(
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
 	# extra new
-	helix mutt fzf wireguard-tools
-	zip 7zip jre-openjdk
+	helix mutt fzf jre-openjdk
 	proton-vpn-gtk-app proton-vpn-cli
 )
 

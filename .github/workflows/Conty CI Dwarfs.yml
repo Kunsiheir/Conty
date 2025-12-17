@@ -38,5 +38,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Conty_Dwarfs
+          name: Conty_development_Dwarfs
           path: conty.sh

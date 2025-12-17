@@ -9,7 +9,7 @@ PACKAGES=(
 	alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse
 	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-pulse pipewire-jack lib32-pipewire-jack
 	# core
-	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr gamescope
+	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr
 	# video
 	mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
 	vulkan-intel lib32-vulkan-intel
@@ -17,13 +17,12 @@ PACKAGES=(
 	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
 	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
 	# extra
-	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
-	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
+	nano ttf-dejavu ttf-liberation mpv geany pcmanfm
+	htop speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux
 	# extra new
-	helix mutt fzf jre-openjdk blender
-	proton-vpn-gtk-app proton-vpn-cli
+	helix mutt fzf blender
 )
 
 # If you want to install AUR packages, specify them in this variable
